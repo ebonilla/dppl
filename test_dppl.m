@@ -37,7 +37,9 @@ end
 
 
 %% Compile mex files (if not existent)
-compile_mex_files('scripts');
+compile_mex_files('scripts', 'cpp');
+compile_mex_files('external/gpml', 'c');
+
  
 %% Generates and preprocess data
 [xtrain, xtest, ytrain, ytest, low, up, low_test, up_test] =  ...
