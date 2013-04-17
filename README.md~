@@ -1,5 +1,3 @@
-DPPL
-====
 Discriminative Probabilistic Prototype Learning (DPPL).
 Implements the Discriminative Probabilistic Prototype Learning framework of Bonilla and and Robles-Kelly (ICML, 2012).
 
